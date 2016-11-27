@@ -1,0 +1,124 @@
+body,html{height: 100%;}
+
+.text-center{text-align: center;}
+.text-white{color: #fff !important;}
+.text-black{color: #000 !important}
+.text-orange{color: #FFA500 !important}
+.text-blue{color: #1E90FF !important}
+.text-muted{color: #999; }
+.text-justify{text-align: justify;}
+
+
+#cabecalho
+{
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url(../img/fundo.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  background-position: center;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-attachment:fixed;
+}
+
+#cabecalho h1
+	{
+		font-size: 4em;
+	}
+#introducao
+{
+	 padding-top: 190px;
+}
+
+
+
+/* SERVIÇOS  */
+#servicos
+{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	height: 100% auto;
+}
+
+#pre-modelos
+{
+	padding-top: 80px;
+	padding-bottom: 40px;
+	background-color: #FFA500;
+	height: 300px;
+}
+	#pre-modelos p{font-size: 20px;}
+
+#parallax
+{
+	display: table;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: url(../img/parallax.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  background-position: center;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-attachment:fixed;
+  padding-top: 150px;
+}
+	#parallax h1{font-size: 60px;}
+
+
+/* SOBRE A EMPRESA */
+#sobre
+{
+	height: 100% auto;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+	#sobre h1{font-size: 40px;}
+
+
+/* NOSSO TIME */
+#team
+{
+	background-color: #f0f0f0;
+	height: 100% auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+	#team h1{padding-bottom: 40px;}
+
+
+/* GALERIA */
+#contato
+{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	height: 100% auto;
+}
+
+
+/*             ALTERAÇOES DO FRAMEWORK          */
+
+
+/* BOTAO DE ICONES DA SEÇAO DE SERVIÇOS*/
+.ui.button
+{
+	background-color: #fff;
+}
+
+/* MENU*/
+.ui.inverted.segment, .ui.primary.inverted.segment {
+    background-color: rgba(0, 0, 0, 0.2); 
+}
+
+.ui.inverted.orange.segment {
+    background-color: #FFA500 !important;
+
+}
+
+.ui.massive.button, .ui.massive.buttons .button, .ui.massive.buttons .or {
+    font-size: 3.71428571rem;
+}
