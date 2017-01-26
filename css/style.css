@@ -108,6 +108,7 @@ body,html{height: 100%;}
 {
 	background-color: #fff;
 }
+.ui.button:hover{background-color: #f0f0f0;}
 
 /* MENU*/
 .ui.inverted.segment, .ui.primary.inverted.segment {
